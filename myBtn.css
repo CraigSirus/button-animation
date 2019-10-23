@@ -1,0 +1,27 @@
+/* Button Styling */
+
+.myBtn {
+
+	/* Margin has been added for display only */
+	margin-top: 50px;
+	margin-left: 50px;
+	/* Remove when you want to work with it*/
+
+	background-color: white;
+	border: 2px solid #7e1cff;
+	color: #7e1cff;
+	padding: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	transition: 1s;
+}
+
+/* Hover styling */
+
+.myBtn:hover {
+	cursor:pointer;
+	transform: skewX(2deg) scale(1.1);
+	border: 3px solid white;
+	box-shadow: 5px 10px 18px #7e1cff;
+	color:white;
+	background-color: #7e1cff;
+}
